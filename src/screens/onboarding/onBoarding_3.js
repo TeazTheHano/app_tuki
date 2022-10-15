@@ -22,7 +22,7 @@ const OnBoarding_3 = () => {
   }
   return (
     <SafeAreaView style={{ backgroundColor: 'white', height: '100%' }}>
-      <View style={{ width: 117, height: 50, marginLeft: 150, marginTop: 40 }}>
+      <View style={{ width: '50%', height: 50, alignSelf:'center' , marginTop: '10%' }}>
         <Text
           style={{
             fontFamily: 'NunitoSans_Black',

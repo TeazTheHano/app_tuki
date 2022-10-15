@@ -18,7 +18,6 @@ import Profile from './src/screens/Profile';
 import Test from './src/screensComponent/Test';
 
 import Quiz1 from './src/screens/Quiz1';
-import Quiz2 from './src/screens/Quiz2';
 import Result from './src/screens/Result';
 import Maps from './src/screens/Maps';
 import Detail_Profes from './src/screens/Detail_Profes';
@@ -84,7 +83,6 @@ function App() {
         <Stack.Screen name="Test" component={Test} />
         <Stack.Screen name="TestDone" component={TestDone} />
         <Stack.Screen name="Quiz1" component={Quiz1} />
-        <Stack.Screen name="Quiz2" component={Quiz2} />
         <Stack.Screen name="Result" component={Result} />
         <Stack.Screen name="Detail_Profes" component={Detail_Profes} />
         <Stack.Screen name="ListCourse" component={ListCourse} />

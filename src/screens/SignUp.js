@@ -6,9 +6,8 @@ import {
   SafeAreaView,
   TextInput,
   StatusBar,
-  Button,
 } from 'react-native';
-import { NativeBaseProvider } from 'native-base';
+import { Button,NativeBaseProvider } from 'native-base';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
@@ -30,9 +29,9 @@ function SignUp() {
   return (
     <SafeAreaView>
       <StatusBar barStyle="dark-content" />
-      <View>
+      <View style={{width: '100%', alignSelf: 'center'}}>
         <View
-          style={{ width: 117, height: 50, marginLeft: 150, marginTop: 40 }}
+          style={{ width: 117, height: 50, marginTop: 40, alignSelf: 'center' }}
         >
           <Text
             style={{
@@ -198,19 +197,19 @@ function SignUp() {
         {/* Button*/}
         <View
           style={{
-            width: 350,
+            width: '85%',
             height: 48,
             backgroundColor: '#447DB9',
             borderRadius: 13,
             padding: 5,
-            marginLeft: 30,
+            alignSelf: 'center'
           }}
         >
           <Button
-            title="Tiếp tục"
-            color="white"
+            title=""
+            colorScheme="white"
             onPress={() => navigation.goBack('SignIn')}
-          />
+          >Tiếp tục</Button>
         </View>
       </View>
     </SafeAreaView>
